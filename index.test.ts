@@ -121,3 +121,22 @@ test('complex nested array testing', () => {
     expect(output).toEqual(expectedOutput);
     expect(sampleInput).not.toEqual(expectedOutput);
 });
+
+test('alternate field types', () => {
+    const sampleInput = {
+        hello: 'world',
+        foo: 5,
+        booleanField: true
+    };
+
+    const expectedOutput = {
+        hello: 'world BB2',
+        foo: 8,
+        booleanField: true
+    };
+    
+    const output = manipulateJson(sampleInput);
+
+    expect(output).toEqual(expectedOutput);
+    expect(sampleInput).not.toEqual(expectedOutput);
+});
