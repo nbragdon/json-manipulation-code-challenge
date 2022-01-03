@@ -1,0 +1,19 @@
+{
+  "name": "json-manipulation-code-challenge",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/nbragdon/json-manipulation-code-challenge.git",
+  "author": "Nick Bragdon <nick.bragdon@adhocteam.us>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
